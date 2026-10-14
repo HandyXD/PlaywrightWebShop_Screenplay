@@ -1,0 +1,27 @@
+{
+  "name": "demowebshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --config config/cucumber.json",
+    "report": "npx @serenity-js/html-reporter serve --dir ./reports/serenity-js --open"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@serenity-js/assertions": "^3.48.0",
+    "@serenity-js/console-reporter": "^3.48.0",
+    "@serenity-js/core": "^3.48.0",
+    "@serenity-js/cucumber": "^3.48.0",
+    "@serenity-js/html-reporter": "^3.48.0",
+    "@serenity-js/playwright": "^3.48.0",
+    "@serenity-js/playwright-test": "^3.48.0",
+    "@serenity-js/rest": "^3.48.0",
+    "@serenity-js/web": "^3.48.0",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15"
+  }
+}

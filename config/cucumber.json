@@ -1,0 +1,20 @@
+{
+ "default": {
+   "paths": [
+     "tests/features/**/*.feature"
+   ],
+   "require": [
+     "tests/steps/**/*.ts", "tests/support/**/*.ts"
+   ],
+   "requireModule": [
+    "tsx"
+   ],
+   "formatOptions": {
+     "snippetInterface": "async-await"
+   },
+   "format": [
+     "progress-bar",
+     "@serenity-js/cucumber"
+   ]
+ }
+}
